@@ -1,0 +1,3 @@
+## Flex 4 Template ##
+
+This is a simple Xcode template for the Flex 4 SDK. It's got a lot of hardcoded paths for now, I hope to fix these soon.
