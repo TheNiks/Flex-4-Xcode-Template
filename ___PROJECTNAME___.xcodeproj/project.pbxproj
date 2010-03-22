@@ -1,0 +1,129 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXFileReference section */
+		48DC972D1145B7FD00B358E1 /* ___PROJECTNAMEASIDENTIFIER___.mxml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.mxml; path = "___PROJECTNAMEASIDENTIFIER___.mxml"; sourceTree = "<group>"; };
+		6CB532651157944E002630EC /* ___PROJECTNAMEASIDENTIFIER___.swf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "___PROJECTNAMEASIDENTIFIER___.swf"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		6CB532361157934F002630EC /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				48DC972D1145B7FD00B358E1 /* ___PROJECTNAMEASIDENTIFIER___.mxml */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		6CB5323711579364002630EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CB532651157944E002630EC /* ___PROJECTNAMEASIDENTIFIER___.swf */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8870579C10DAEE47004FDDD2 = {
+			isa = PBXGroup;
+			children = (
+				6CB532361157934F002630EC /* Source */,
+				6CB5323711579364002630EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		887057DD10DAEE8C004FDDD2 /* mxmlc */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "___PROJECTNAMEASIDENTIFIER___.mxml";
+			buildConfigurationList = 887057E010DAEEC5004FDDD2 /* Build configuration list for PBXLegacyTarget "mxmlc" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/flex_sdk_4/bin/mxmlc;
+			dependencies = (
+			);
+			name = mxmlc;
+			passBuildSettingsInEnvironment = 0;
+			productName = mxmlc;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		8870579E10DAEE47004FDDD2 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 887057A110DAEE47004FDDD2 /* Build configuration list for PBXProject "___PROJECTNAME___" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 0;
+			mainGroup = 8870579C10DAEE47004FDDD2;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				887057DD10DAEE8C004FDDD2 /* mxmlc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		8870579F10DAEE47004FDDD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		887057A010DAEE47004FDDD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		887057DE10DAEE8C004FDDD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = mxmlc;
+			};
+			name = Debug;
+		};
+		887057DF10DAEE8C004FDDD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = mxmlc;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		887057A110DAEE47004FDDD2 /* Build configuration list for PBXProject "___PROJECTNAME___" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8870579F10DAEE47004FDDD2 /* Debug */,
+				887057A010DAEE47004FDDD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		887057E010DAEEC5004FDDD2 /* Build configuration list for PBXLegacyTarget "mxmlc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				887057DE10DAEE8C004FDDD2 /* Debug */,
+				887057DF10DAEE8C004FDDD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8870579E10DAEE47004FDDD2 /* Project object */;
+}
