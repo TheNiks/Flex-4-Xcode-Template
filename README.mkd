@@ -24,4 +24,4 @@ In order to make Xcode's "Build and Run" work, you need to follow a few steps.
 5. For "Executable Path", put `/usr/bin/open`.
 6. Double-click the executable object that gets created.
 7. In the "Arguments" tab, click the "+" button, and enter the absolute path to the .swf file Xcode creates.
-8. Click the "+" button again, and enter "-a <browsername>", where <browsername> is the name of the browser you wish to use to test your project.
+8. Click the "+" button again, and enter "-a `browsername`", where `browsername` is the name of the browser you wish to use to test your project.
